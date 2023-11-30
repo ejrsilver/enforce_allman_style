@@ -1,15 +1,19 @@
 {
-    "name": "ethansilver/enforce_allman_style",
-    "description": "Allman style for all control statements and functions.",
-    "type": "library",
+    "name": "ejrsilver/enforce_allman_style",
+    "description": "Allman style CodeSniffer sniff for all control statements and functions.",
+    "type": "phpcodesniffer-standard",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.2"
+    },
     "autoload": {
         "psr-4": {
-            "Ethansilver\\EnforceAllmanStyle\\": "src/"
+            "ejrsilver\\EnforceAllmanStyle\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "ejrsilver",
+            "name": "Ethan Silver",
             "email": "ejrsilver@gmail.com"
         }
     ],
