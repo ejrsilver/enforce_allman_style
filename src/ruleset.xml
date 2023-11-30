@@ -1,4 +1,4 @@
 <?xml version="1.0"?>
-<ruleset name="EnforceAllmanStyle">
+<ruleset name="Ejrsilver.EnforceAllmanStyle">
  <description>Enforces Allman style for classes, functions, and control statements.</description>
 </ruleset>
